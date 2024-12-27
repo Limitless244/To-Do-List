@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.outter {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.top-nav {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.search-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-nav input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon-nav i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.menu-list {
+    display: none;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-list li:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.todo-container {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container h1 {
+    margin-top: 0;
+}
+
+.todo-container input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.todo-container button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-container button:hover {
+    background-color: #0056b3;
+}
+
+.todo-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.todo-container li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.todo-container li button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-container li button:hover {
+    background-color: #a71d2a;
+}
